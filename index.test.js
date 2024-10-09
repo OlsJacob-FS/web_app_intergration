@@ -25,6 +25,6 @@ describe("", () => {
 
 describe("", () => {
   test("Test if the user is able to enter in credit card as a number and not a string", () => {
-    expect(hideNumber(123456789012)).toBe(TypeError);
+    expect(hideNumber(123456789012)).toBe("Invalid Data Type");
   });
 });
